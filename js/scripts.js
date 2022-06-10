@@ -25,3 +25,14 @@ function numOutput(num) {
   console.log(numList);
   return numList;
 }
+
+
+$(document).ready(function() {
+  $('form#num-list').submit(function (event) {
+    event.preventDefault();
+    const intro = prompt());
+
+   
+  
+  });
+});  
