@@ -1,3 +1,30 @@
+Mr. Roboger's Neighborhood
+
+This is a silly quiz you can take to see which code Kai thinks you should start with on your coding journey.
+
+Contributor: Kai Kohlsdorf
+
+Technologies Used
+*HTML
+
+*CSS
+
+*Javascript
+
+*jQuery
+
+*Bootstrap
+
+*Markdown
+
+Installation
+*Clone this repository to your desktop.
+
+*Navigate to the top level of the directory.
+
+*Open Mr-Robogers-Neighborhood/index.html in your browser.
+
+TDD
 Describe: numOutput()
 
 Test: "It should return NaN if "" is inputted."
@@ -43,3 +70,12 @@ Expected Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8
 Test: "It should return an array of numbers."
 Code:
 Expected Output:0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!"
+
+Known Bugs:
+*TBD
+
+License
+
+[MIT]
+
+Copyright (c) June 10, 2022 Kai Kohlsdorf
