@@ -1,5 +1,8 @@
 function numOutput(num) {
-  if (num < 0) return NaN;
-  if (num => 0) return 0;
-return num;
+  let numList = ["0"]
+  for (let i=0; 1 <= num; i+=1) {
+    numList.push(i);
+  }
+  return numList;
 }
+

@@ -40,3 +40,6 @@ Test: "It should return 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 
 Code:
 Expected Output: 0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!"
 
+Test: "It should return an array of numbers."
+Code:
+Expected Output:0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!"
