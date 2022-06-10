@@ -1,6 +1,6 @@
 // function numOutput(num) {
 //   let numList = [];
-//   for (let i = 0; 1 <= num; i += 1) {
+//   for (let i = 0; i <= num; i += 1) {
 //     numList.push(i);
 //     let stringNum = i.toString();
 //       if (stringNum.includes("3")) {
@@ -17,22 +17,28 @@
 //   return numList;
 // }
 
+
 function numOutput(num) {
-  let numList = ["0"]
-  for (let i=0; 1 <= num; i+=1) {
-    numList.push(i);
+  let numWords = [];
+  for (let i = 0; i <= num; i += 1) {
+    console.log(i)
+    let wordNum=i.toString();
+      if (wordNum.includes("3")) {
+        numWords.push(" " + "Won't you be my neighbor?");
+      } else if (wordNum.includes("2")) {
+        numWords.push(" " + "Boop!");
+      } else if (wordNum.includes("1")) {
+        numWords.push(" " + "Beep!");
+      } else {
+        numWords.push(" ")
+      }
   }
-  console.log(numList);
-  return numList;
+  return numWords;
 }
 
 
 $(document).ready(function() {
-  $('form#num-list').submit(function (event) {
-    event.preventDefault();
-    const intro = prompt());
-
-   
-  
+  $("form#numList").submit(function (event) {
+    
   });
 });  
