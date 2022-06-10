@@ -38,7 +38,7 @@ function numOutput(num) {
 
 
 $(document).ready(function() {
-  $("form#numList").submit(function (event) {
+  $("#numList").submit(function (event) {
     
   });
 });  
