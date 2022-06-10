@@ -1,7 +1,15 @@
-Describe: numberOutput()
+Describe: numOutput()
+
+Test: "It should return NaN if "" is inputted."
+Code: 
+const num = ""
+numOutput("");
+ExpectedOutput: 0
 
 Test: "It should return 0 if 0 is inputted."
 Code: 
+const num = "0";
+numOutput(num);
 Expected Output: 0
 
 Test: "It should return 0, 1 if 1 is inputted."
