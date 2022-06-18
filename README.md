@@ -69,7 +69,7 @@ Code: numOutput(14)
 Expected Output: [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, "Beep!", "Beep!", "Boop!", "Won't you be my neighbor?", "Beep!"]
 
 ## Known Bugs
-*Submit button does not return an array
+*N/A
 
 ## License
 [MIT](https://github.com/KaiKohlsdorf/Mr-Robogers-Neighborhood/blob/main/LICENSE) 

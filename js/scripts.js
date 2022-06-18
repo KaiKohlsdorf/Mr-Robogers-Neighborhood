@@ -1,7 +1,6 @@
 function numOutput(num) {
   let numWords = [];
   for (let i = 0; i <= num; i += 1) {
-    numWords.push(i);
     let wordNum = i.toString();
       if (wordNum.includes("3")) {
         numWords.push("Won't you be my neighbor?");
@@ -12,10 +11,20 @@ function numOutput(num) {
       } else {
         numWords.push(wordNum);
       }
-      console.log(numWords)
   }
-  return numWords;
+  return numWords.join(", ")
 }
+
+$(document).ready(function() {
+  $("#numList").submit(function(event) {
+    event.preventDefault();
+    const input = parseInt($("input#i").val());
+    const tada = numOutput(input);
+    $("#output").text(tada);
+    $("#output").toggle();
+  });
+});  
+
 
 
 // function numOutput(num) {
@@ -35,13 +44,3 @@ function numOutput(num) {
 //   }
 //   return numWords;
 // }
-
-
-$(document).ready(function() {
-  $("#numList").submit(function (event) {
-    event.preventDefault();
-    const userInput = parseInt($("#num").val());
-    const output = numOutput(userInput);
-    $("#formSubmit").text(output); 
-  });
-});  
